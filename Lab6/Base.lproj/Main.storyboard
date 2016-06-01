@@ -257,5 +257,42 @@
             </objects>
             <point key="canvasLocation" x="810" y="218"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="NQr-71-5kO">
+            <objects>
+                <viewController id="X3O-Qw-r8h" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="his-qF-hg9"/>
+                        <viewControllerLayoutGuide type="bottom" id="o8Z-sq-mVk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A7e-m7-sQV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2Va-Zn-Vjl">
+                                <rect key="frame" x="240" y="15" width="121" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHD-h5-PjL">
+                                <rect key="frame" x="278" y="253" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="o8Z-sq-mVk" firstAttribute="top" secondItem="IHD-h5-PjL" secondAttribute="bottom" constant="317" id="0tt-3W-B7r"/>
+                            <constraint firstItem="2Va-Zn-Vjl" firstAttribute="centerX" secondItem="IHD-h5-PjL" secondAttribute="centerX" id="4sx-2u-ail"/>
+                            <constraint firstItem="2Va-Zn-Vjl" firstAttribute="centerX" secondItem="A7e-m7-sQV" secondAttribute="centerX" id="LEb-Zw-5k7"/>
+                            <constraint firstItem="2Va-Zn-Vjl" firstAttribute="top" secondItem="A7e-m7-sQV" secondAttribute="topMargin" constant="15" id="OLd-LD-0zu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KRB-mb-jVl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1464" y="218"/>
+        </scene>
     </scenes>
 </document>
